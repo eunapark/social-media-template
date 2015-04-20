@@ -21,28 +21,28 @@ var sns = [
 		},
 		{
 			name: 'Pinterest',
-			visitors: '250 mil',
 			rank: 4,
+			visitors: '250 mil',
 			image: 'pinterest.png'
 		},
 		{
 			name: 'Google Plus',
-			visitors: '120 mil',
 			rank: 5,
+			visitors: '120 mil',
 			image: 'google.png'
 
 		},
 		{
 			name: 'Tumblr',
-			visitors: '110 mil',
 			rank: 6,
+			visitors: '110 mil',
 			image: 'tumblr.png'
 		},
 		{
 			name: 'Instagram',
-			visitors: '100 mil',
 			rank: 7,
-			image: 'instagram.png '
+			visitors: '100 mil',
+			image: 'instagram.png'
 		}
 
 	];
