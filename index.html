@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<title>Top Social Media Platform</title>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body>
+
+	<div id="container">
+		<!-- <div class="sns-container">
+			<div class="sns-name">78</div>
+				<img src="broken.jpg"/>
+			<div class="name">Social Media</div>
+			<div class="rank">Top 7</div>
+			<div class="visitors">X million</div>
+		</div> -->
+	</div>
+
+	<script id="sns-template" type="text/jst">
+		<div class="sns-container">
+			<div class="sns-name-container">
+				<img src="imgs/ <%= image %>"/>
+					<div class="rank-container"><%= rank %></div>
+			</div>
+			
+			<div class="name"><%= name %></div>
+			<div class="rank"><%= Rank: <%= rank %></div>
+			<div class="visitors">Visitors: <% visitors %></div>
+		</div>
+
+	</script>
+
+	<script src="js/thirdparty/jquery-1.11.1.min.js"></script>
+	<script src="js/thirdparty/d3.v3.min.js"></script>
+	<script src="js/thirdparty/underscore-min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
