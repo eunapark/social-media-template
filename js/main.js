@@ -53,11 +53,11 @@ var sns = [
 		},
 
 		toUpperCase: function(name){
-			return name.toString().toUpperCase();
+			return name.toUpperCase();
 		},
 
-		boldName: function(bold){
-			return name.toString().bold();
+		boldName: function(test){
+			return test.bold();
 		}
 
 	}
