@@ -54,6 +54,10 @@ var sns = [
 
 		toUpperCase: function(name){
 			return name.toString().toUpperCase();
+		},
+
+		boldName: function(bold){
+			return name.toString().bold();
 		}
 
 	}
